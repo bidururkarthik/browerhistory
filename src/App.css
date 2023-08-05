@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footercontainer {
+  background-color: #3367d6;
+  height: auto;
+  width: auto;
+  padding: 11px;
+  display: flex;
+}
+
+.searchcontainer {
+  margin-left: 470px;
+  display: flex;
+}
+
+.searchiconcontainer {
+  background-color: #2850a7;
+  border-color: white;
+  border-width: 1px;
+  width: 32px;
+  padding: 3px;
+}
+
+.inputdetails {
+  border-width: 1px;
+  border-color: white;
+  width: 280px;
+  background-color: #2850a7;
+  padding: 3px;
+}
+
+.history_imageSize {
+  height: 25px;
+  width: 80px;
+}
+
+.maincardcontainer {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardcontainer {
+  height: auto;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
